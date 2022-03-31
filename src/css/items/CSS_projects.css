@@ -1,0 +1,20 @@
+.projects{
+    text-align: center;
+    margin-bottom: 45px;
+    
+}
+
+.card{
+    margin: auto;
+    background-color: transparent;
+    border: none;
+}
+
+.card-title{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.card-text{
+    color: whitesmoke;
+}

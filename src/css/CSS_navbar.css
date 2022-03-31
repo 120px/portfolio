@@ -1,0 +1,25 @@
+.navbar-container{
+    margin-bottom: 150px;
+}
+
+.navbar-contents{
+    padding: 50px 100px 0px 100px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+
+}
+
+.navbar-item-1, .navbar-item-2, .navbar-item-3{
+    font-size: 1.5rem;
+    
+}
+
+/* .navbar-item-2{
+    font-size: 3rem;
+}
+
+.navbar-item-3{
+    font-size: 3rem;
+} */

@@ -1,0 +1,32 @@
+.header-container{
+    height: 800px;
+    width: 100%;
+}
+
+.header-text{
+    line-height: 1;
+}
+
+.junior-text p{
+    font-size: 128px;
+    padding: 0;
+    margin: 0;
+}
+
+.web-text, .developer-text{
+    font-weight: bolder;
+    font-size: 15rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.web-text p{
+    height: 210px;
+    margin: 0;
+}
+
+.developer-text p{
+    
+}
