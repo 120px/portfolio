@@ -1,6 +1,8 @@
 import React from 'react'
 import "../css/CSS_headersection.css"
 import Button from 'react-bootstrap/Button';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
 
 const HeaderSection = () => {
     return (
@@ -13,6 +15,9 @@ const HeaderSection = () => {
                 <p>developer</p>
             </div>
 
+            <div className='chevron-image'>
+                <FontAwesomeIcon size='xl' icon={faChevronDown} />
+            </div>
         </div>
     )
 }

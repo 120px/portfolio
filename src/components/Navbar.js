@@ -7,17 +7,17 @@ const Navbar = () => {
 
 
       <ol className='navbar-contents'>
-        <li className='navbar-item-1'>Steven Di Feo</li>
+        <div className='name-container'>
+          <li className='navbar-item-1'>Steven Di Feo</li>
+        </div>
 
-
-        <li className='navbar-item-1'>Projects</li>
-        <li className='navbar-item-2'>About me</li>
-        <li className='navbar-item-3'>Contact</li>
+        <div className='inner-container'>
+          <a href="#projects"><li className='navbar-item-1'>Projects</li></a>
+          <a href="#projects"><li className='navbar-item-2' href="#">About me</li></a>
+          <a href="#contact"><li className='navbar-item-3' href="#">Contact</li></a>
+        </div>
 
       </ol>
-
-
-
     </div>
   )
 }

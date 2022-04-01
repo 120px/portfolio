@@ -1,13 +1,25 @@
 [
     {
-        "imageLocation": "./images/madvillain.jpg",
+        "imageLocation": "./images/LocalGrocer/Thumbnail.png",
         "title": "Local Grocer",
         "description": "lorem",
         "githubLink": "www.google.ca"
     },
     {
         "imageLocation": "./images/madvillain.jpg",
-        "title": "Local Grocer",
+        "title": "Crypto Tracker",
+        "description": "lorem",
+        "githubLink": "www.google.ca"
+    },
+    {
+        "imageLocation": "./images/madvillain.jpg",
+        "title": "TITAN",
+        "description": "lorem",
+        "githubLink": "www.google.ca"
+    },
+    {
+        "imageLocation": "./images/madvillain.jpg",
+        "title": "Apex Shield Swapper",
         "description": "lorem",
         "githubLink": "www.google.ca"
     }

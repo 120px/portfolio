@@ -16,10 +16,9 @@
     
 }
 
-/* .navbar-item-2{
-    font-size: 3rem;
+.inner-container a{
+    text-decoration: none;
+    color: #212529;
 }
 
-.navbar-item-3{
-    font-size: 3rem;
-} */
+

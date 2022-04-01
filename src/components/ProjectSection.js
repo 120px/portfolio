@@ -5,7 +5,7 @@ import ProjectItem from './Projects/ProjectItem'
 
 const ProjectSection = ({}) => {
     return (
-        <div className='project-container '>
+        <div className='project-container' id="projects">
 
             <div className='project-header text-center'>
 

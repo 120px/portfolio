@@ -12,7 +12,9 @@ const Project = ({ }) => {
                 <ProjectItem
                     id={index}
                     imageLocation={data.imageLocation}
-                    title={data.title} >
+                    title={data.title}
+                    description = {data.description} 
+                    githubLink = {data.githubLink}>
 
                 </ProjectItem>
             )}
