@@ -1,0 +1,45 @@
+@media screen and (max-width: 500px) {
+
+  .name-container{
+    padding-top: 10px;
+    width: 85px;
+    
+  }
+
+  .navbar-contents{
+    padding: 50px 30px 0px 30px;
+  }
+
+  .inner-container li{
+    padding-top: 10px;
+
+  }
+
+  .container{
+    padding: 0px;
+  }
+
+  .container-fluid{
+    padding: 0px;
+  }
+
+  .web-text , .developer-text{
+      font-size: 4rem;
+    
+  }
+
+  .web-text{
+    text-align: center;
+  }
+
+  .card{
+    width: 100% !important;
+  }
+
+  .card img{
+    height: 100% ;
+    width: 100%;
+  }
+
+}
+  

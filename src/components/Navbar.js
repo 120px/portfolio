@@ -13,7 +13,7 @@ const Navbar = () => {
 
         <div className='inner-container'>
           <a href="#projects"><li className='navbar-item-1'>Projects</li></a>
-          <a href="#projects"><li className='navbar-item-2' href="#">About me</li></a>
+          <a href="#about_me"><li className='navbar-item-2' href="#">About me</li></a>
           <a href="#contact"><li className='navbar-item-3' href="#">Contact</li></a>
         </div>
 

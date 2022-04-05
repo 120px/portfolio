@@ -1,19 +1,30 @@
 .contact-container{
-    height: 600px;
     margin: auto;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    background-color: #212529;
+    color: whitesmoke;
+    box-shadow: 0px 1px 15px 5px rgb(0 0 0 / 53%);
 }
 
 .contact-info{
-
+    
 }
 
 .contact-info p{
-    padding-top: 10rem;
     font-size: 4rem;
     text-transform: uppercase;
 }
 
 .icons span{
-    padding: 0px 30px 0px 30px
+    padding: 0px 30px 0px 30px;
+    padding-bottom: 250px;
+    
+}
+
+.icons a{
+    text-decoration: none;
+    color: whitesmoke;
+    
 }

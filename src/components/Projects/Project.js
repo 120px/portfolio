@@ -14,7 +14,8 @@ const Project = ({ }) => {
                     imageLocation={data.imageLocation}
                     title={data.title}
                     description = {data.description} 
-                    githubLink = {data.githubLink}>
+                    githubLink = {data.githubLink}
+                    stackUsed = {data.stackUsed}>
 
                 </ProjectItem>
             )}

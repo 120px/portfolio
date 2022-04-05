@@ -7,15 +7,9 @@
     line-height: 1;
 }
 
-.junior-text p{
-    font-size: 128px;
-    padding: 0;
-    margin: 0;
-}
-
 .web-text, .developer-text{
   font-weight: bolder;
-  font-size: 15rem;
+  font-size: 12rem;
   padding: 0;
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,6 +17,11 @@
   -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 
+}
+
+.web-text p{
+  padding-bottom: 0px;
+  margin: 0;
 }
 
 @-webkit-keyframes tracking-in-expand {
@@ -50,15 +49,6 @@
   }
 }
 
-.web-text p{
-    height: 210px;
-    margin: 0;
-}
-
-.developer-text p{
-    
-}
-
 .chevron-image{
     animation: chevron-image 2s infinite;
 }
@@ -77,3 +67,10 @@
 
 
 
+/* RESPONSIVE */
+@media screen and (max-width: 400) {
+  .web-text, .developer-text{
+      font-size: 10px;
+      background-color: aquamarine;
+  }
+}

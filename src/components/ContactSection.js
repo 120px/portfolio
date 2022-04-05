@@ -8,14 +8,16 @@ const ContactSection = () => {
         <div className='contact-container container-fluid' id="contact">
 
             <div className='contact-info'>
-                <p>contact & work</p>
+                <p>contact</p> 
+                <p>&</p> 
+                <p>work</p>
 
                 <div className='icons'>
                     <span>
-                        <FontAwesomeIcon size='6x' icon={faLinkedin} />
+                        <a href='https://www.linkedin.com/in/steven-9434781b1/'><FontAwesomeIcon  size='6x' icon={faLinkedin} /></a>
                     </span>
                     <span>
-                        <FontAwesomeIcon size='6x' icon={faGithub} />
+                        <a href='https://github.com/sdifeo'><FontAwesomeIcon size='6x' icon={faGithub} /></a>
                     </span>
                 </div>
 
