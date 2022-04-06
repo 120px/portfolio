@@ -1,9 +1,16 @@
 @media screen and (max-width: 500px) {
-
+  body{
+    width: 100% !important;
+  }
+  
   .name-container{
     padding-top: 10px;
     width: 85px;
     
+  }
+
+  .icons span{
+    padding-bottom: 0;
   }
 
   .navbar-contents{
@@ -17,6 +24,7 @@
 
   .container{
     padding: 0px;
+    margin: auto;
   }
 
   .container-fluid{
@@ -40,6 +48,21 @@
     height: 100% ;
     width: 100%;
   }
+
+  .contact-container{
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .header-line1 p, .header-line2 p{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+
+}
 
 }
   

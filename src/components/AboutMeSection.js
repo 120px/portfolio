@@ -12,7 +12,7 @@ const AboutMeSection = () => {
 
       <div className='aboutme-inner-container text-center'>
         <p>26 year old Canadian, located in Quebec.</p>
-        <p>I enjoy creating interactive and scalable applications that provide a great experience for users using modern frontend technologies.</p>
+        <p>I enjoy creating interactive and scalable applications using modern frontend technologies that provide a great experience for users.</p>
         <p>Future graduate from Lasalle College, looking for an internship.</p>
 
       </div>

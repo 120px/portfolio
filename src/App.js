@@ -9,7 +9,7 @@ import AboutMeSection from "./components/AboutMeSection";
 
 function App() {
   return (
-    <div>
+    <div className="">
       <div className="container">
 
         <Navbar ></Navbar>
