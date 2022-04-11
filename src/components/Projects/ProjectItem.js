@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 import { useState } from 'react'
 import ProjectModal from '../ProjectModal'
 
-const ProjectItem = ({ imageLocation, title, githubLink, description, stackUsed }) => {
+const ProjectItem = ({ imageLocation, title, githubLink, description, stackUsed, deployedButton, doNotDisplay }) => {
 
     const [modal, setModal] = useState(false)
 
@@ -34,6 +34,7 @@ const ProjectItem = ({ imageLocation, title, githubLink, description, stackUsed 
                 </div>
 
                 <Button href={githubLink} onClick={toggleModal} variant="primary">Check it out</Button>
+                <Button className='deployedBtn'  href={deployedButton} onClick={toggleModal} variant="light">Deployment link</Button>
             </div>
 
             {modal ? <ProjectModal title={title} description={description}></ProjectModal> : null}

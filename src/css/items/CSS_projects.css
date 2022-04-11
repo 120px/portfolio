@@ -40,3 +40,13 @@
     margin: auto 0px auto 0px;
     padding-left: 10px;
 }
+
+.deployedBtn{
+    background-color: whitesmoke !important;
+    color: black !important;
+    margin-left: 15px;
+}
+
+.doNotDisplay{
+    display: none;
+}

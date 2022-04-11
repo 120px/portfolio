@@ -9,6 +9,10 @@
     
   }
 
+  .header-container{
+    height: 700px;
+  }
+
   .icons span{
     padding-bottom: 0;
   }
@@ -32,7 +36,7 @@
   }
 
   .web-text , .developer-text{
-      font-size: 4rem;
+      font-size: 3.5rem;
     
   }
 

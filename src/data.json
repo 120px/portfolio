@@ -4,6 +4,8 @@
         "title": "Local Grocer",
         "description": "Replication of a grocery store. Users can sign up and sign in, add items to cart and check out. Still under construction.",
         "githubLink": "https://github.com/sdifeo/GroceryStore",
+        "deployedButton": "https://github.com/sdifeo/Tile-guesser",
+        "displayDeployButton": "doNotDisplay",
         "stackUsed": ["React, ", "Express, ", "MongoDB, ", "Bootstrap"]
     },
     {
@@ -11,20 +13,17 @@
         "title": "Crypto Tracker",
         "description": "Quick and simple tool that allows users to keep track of their favourite crypto currencies.",
         "githubLink": "https://github.com/sdifeo/Tile-guesser",
+        "deployedButton": "https://github.com/sdifeo/Tile-guesser",
+        "displayDeployButton": "",
         "stackUsed": ["React, ", "Express, ", "Bootstrap"]
-    },
-    {
-        "imageLocation": "./images/placeholder-image.png",
-        "title": "Apex Shield Swap Tool",
-        "description": "A tool that allows players of the popular Battle Royale game, Apex Legends, to practice a specific game mechanic.",
-        "githubLink": "https://github.com/sdifeo/apex-looting-app",
-        "stackUsed": ["React, ", "Express"]
     },
     {
         "imageLocation": "./images/TITAN/thumbnail.png",
         "title": "TITAN",
         "description": "A mobile application that allows users to easily keep track of their gym/workout history and progress.",
         "githubLink": "https://github.com/sdifeo/Tile-guesser",
+        "deployedButton": "https://github.com/sdifeo/Tile-guesser",
+        "displayDeployButton": "doNotDisplay",
         "stackUsed": ["Java, ", "Firebase"]
     }
 ]
