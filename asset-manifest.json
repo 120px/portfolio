@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1e6d599d.css",
-    "main.js": "/Portfolio/static/js/main.bfb7dc06.js",
+    "main.css": "/Portfolio/static/css/main.c61b441f.css",
+    "main.js": "/Portfolio/static/js/main.cba66855.js",
     "static/js/787.ec5183d7.chunk.js": "/Portfolio/static/js/787.ec5183d7.chunk.js",
+    "static/media/mobile2.png": "/Portfolio/static/media/mobile2.7fdbe7b02c3c7e6096f2.png",
+    "static/media/mobile1.png": "/Portfolio/static/media/mobile1.6f557a23140a09941361.png",
+    "static/media/mobile3.png": "/Portfolio/static/media/mobile3.757b5ed00afa06ca53cf.png",
+    "static/media/Overview.png": "/Portfolio/static/media/Overview.c892c741b990c80ef33a.png",
+    "static/media/Grocery1.png": "/Portfolio/static/media/Grocery1.e49b3f7f800232c9bf3e.png",
+    "static/media/MongoDb.png": "/Portfolio/static/media/MongoDb.95c6b5078f058ed45062.png",
+    "static/media/NodeJS.png": "/Portfolio/static/media/NodeJS.d980d9636ace07ad3dde.png",
+    "static/media/BootstrapLogo.png": "/Portfolio/static/media/BootstrapLogo.02e16df6861464872846.png",
+    "static/media/ReactLogo.png": "/Portfolio/static/media/ReactLogo.05e48353d6aac031c4e0.png",
     "index.html": "/Portfolio/index.html",
-    "main.1e6d599d.css.map": "/Portfolio/static/css/main.1e6d599d.css.map",
-    "main.bfb7dc06.js.map": "/Portfolio/static/js/main.bfb7dc06.js.map",
+    "main.c61b441f.css.map": "/Portfolio/static/css/main.c61b441f.css.map",
+    "main.cba66855.js.map": "/Portfolio/static/js/main.cba66855.js.map",
     "787.ec5183d7.chunk.js.map": "/Portfolio/static/js/787.ec5183d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e6d599d.css",
-    "static/js/main.bfb7dc06.js"
+    "static/css/main.c61b441f.css",
+    "static/js/main.cba66855.js"
   ]
 }
