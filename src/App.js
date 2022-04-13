@@ -6,24 +6,27 @@ import fileData from "./data.json"
 import ContactSection from "./components/ContactSection";
 import "./css/CSS_Main.css"
 import AboutMeSection from "./components/AboutMeSection";
+import { Outlet, Link } from "react-router-dom";
 
 function App() {
+
   return (
     <div className="">
-      <div className="container">
 
+      <div className="container">
         <Navbar ></Navbar>
         <HeaderSection></HeaderSection>
       </div>
 
       <div className="container-fluid p-0">
-        <ProjectSection></ProjectSection>
+        <ProjectSection ></ProjectSection>
       </div>
 
       <AboutMeSection></AboutMeSection>
 
       <ContactSection></ContactSection>
-      
+
+      <Outlet />
     </div>
   );
 }

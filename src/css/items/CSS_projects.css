@@ -47,6 +47,11 @@
     margin-left: 15px;
 }
 
-.doNotDisplay{
+#doNotDisplay{
     display: none;
+}
+
+.detailBtn{
+    background-color: rgb(77, 120, 139) !important;
+    margin-left: 15px;
 }

@@ -1,0 +1,148 @@
+.localgrocer-container{
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.container-images{
+    margin: auto;
+    text-align: center;
+}
+
+.container-images img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 20px;
+    margin: 70px 0 20px 0;
+
+}
+
+.title p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 75px;
+}
+
+img {
+    transition:transform 0.45s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+.stack-container{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 65px;
+}
+
+.stack-title{
+    margin-bottom: 20px;
+}
+
+.stack-image-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: normal;
+
+    padding-bottom: 150px;
+}
+
+.stack-image-container img{
+    max-width: 100px;
+    padding: 0px 3px 0px 3px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+.nodejs-img{
+    padding-top: 15px;
+}
+
+.goal-title{
+    font-size: 65px;
+    text-align: center;
+}
+
+.goal-description{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.responsive-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: normal;
+    align-content: normal;
+
+    padding-bottom: 240px;
+}
+
+.responsive-images img{
+    max-width: 180px;
+    max-height: 820px;
+}
+
+.challenges-title{
+    margin-top: 75px;
+    font-size: 65px;
+    text-align: center;
+}
+
+.challenges-description{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .title p{
+        font-size: 55px !important;
+    }
+
+    img{
+        /* max-width: 375px !important; */
+        border-radius: 0 !important;
+    }
+
+    .stack-image-container{
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    
+    .stack-image-container img{
+        max-width: 75px;
+    }
+
+    .stack-container{
+        font-size: 40px;
+    }
+
+    .goal-title{
+        font-size: 40px;
+    }
+
+    .goal-description{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .sales-container{
+        width: 200px !important;
+    }
+
+    .sale-figure{
+        width: 5rem !important;
+    }
+
+}

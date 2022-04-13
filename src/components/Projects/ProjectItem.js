@@ -3,15 +3,15 @@ import Card from 'react-bootstrap/Card'
 import "../../css/items/CSS_projects.css"
 import Button from 'react-bootstrap/Button'
 import { useState } from 'react'
-import ProjectModal from '../ProjectModal'
 
-const ProjectItem = ({ imageLocation, title, githubLink, description, stackUsed, deployedButton, doNotDisplay }) => {
+const ProjectItem = ({ imageLocation, title, githubLink, description, stackUsed, deployedButton, displayDeployButton, displayDetailButton }) => {
 
     const [modal, setModal] = useState(false)
 
     const toggleModal = () => {
-        setModal(!modal)
-        console.log("yes")
+        setModal(prev => !prev)
+        console.log("ASD")
+
     }
 
     return (
@@ -33,11 +33,10 @@ const ProjectItem = ({ imageLocation, title, githubLink, description, stackUsed,
                         ) : null}
                 </div>
 
-                <Button href={githubLink} onClick={toggleModal} variant="primary">Check it out</Button>
-                <Button className='deployedBtn'  href={deployedButton} onClick={toggleModal} variant="light">Deployment link</Button>
+                <Button href={githubLink} variant="primary">Link to Github</Button>
+                <Button className='deployedBtn' id={displayDeployButton} href={deployedButton} variant="light">Deployment link</Button>
+                <Button className='detailBtn' id={displayDetailButton} href={displayDetailButton} variant="info">Details</Button>
             </div>
-
-            {modal ? <ProjectModal title={title} description={description}></ProjectModal> : null}
 
         </div>
     )

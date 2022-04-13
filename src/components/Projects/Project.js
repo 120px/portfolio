@@ -17,7 +17,10 @@ const Project = ({ }) => {
                     githubLink = {data.githubLink}
                     stackUsed = {data.stackUsed}
                     deployedButton = {data.deployedButton}
-                    displayDeployButton = {data.displayDeployButton}>
+                    displayDeployButton = {data.displayDeployButton}
+                    isDisabled = {data.isDisabled}
+                    displayDetailButton = {data.displayDetailButton}
+                    >
 
                 </ProjectItem>
             )}

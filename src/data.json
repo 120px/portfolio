@@ -6,6 +6,8 @@
         "githubLink": "https://github.com/sdifeo/GroceryStore",
         "deployedButton": "https://github.com/sdifeo/Tile-guesser",
         "displayDeployButton": "doNotDisplay",
+        "displayDetailButton": "/localgrocer",
+        "isDisabled": "true",
         "stackUsed": ["React, ", "Express, ", "MongoDB, ", "Bootstrap"]
     },
     {
@@ -14,7 +16,9 @@
         "description": "Quick and simple tool that allows users to keep track of their favourite crypto currencies.",
         "githubLink": "https://github.com/sdifeo/Tile-guesser",
         "deployedButton": "https://github.com/sdifeo/Tile-guesser",
-        "displayDeployButton": "",
+        "displayDeployButton": "doNotDisplay",
+        "displayDetailButton": "doNotDisplay",
+        "isDisabled": "false",
         "stackUsed": ["React, ", "Express, ", "Bootstrap"]
     },
     {
@@ -24,6 +28,8 @@
         "githubLink": "https://github.com/sdifeo/Tile-guesser",
         "deployedButton": "https://github.com/sdifeo/Tile-guesser",
         "displayDeployButton": "doNotDisplay",
+        "displayDetailButton": "doNotDisplay",
+        "isDisabled": "true",
         "stackUsed": ["Java, ", "Firebase"]
     }
 ]
