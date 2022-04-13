@@ -9,10 +9,26 @@ import LocalGrocer from './components/Pages/LocalGrocer';
 
 ReactDOM.render(
 
+  // <BrowserRouter>
+  //   <Routes>
+
+  //     <Route path="/" element={<App />}/>
+
+  //     <Route path="localgrocer" element={<LocalGrocer />} />
+
+  //   </Routes>
+  // </BrowserRouter>,
+  // document.getElementById('root')
+
+  // <React.StrictMode>
+  //   <HashRouter>
+  //     <App />
+  //   </HashRouter>
+  // </React.StrictMode>,
+  // document.getElementById('root')
+
   <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

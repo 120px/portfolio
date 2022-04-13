@@ -24,11 +24,20 @@
     font-size: 75px;
 }
 
-img {
+.container-images img{
     transition:transform 0.45s ease;
 }
 
-img:hover {
+.container-images img:hover {
+    -webkit-transform:scale(1.35);
+    transform:scale(1.35);
+}
+
+.responsive-images img{
+    transition:transform 0.45s ease;
+}
+
+.responsive-images img:hover{
     -webkit-transform:scale(1.5);
     transform:scale(1.5);
 }

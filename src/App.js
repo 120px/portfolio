@@ -9,8 +9,13 @@ import AboutMeSection from "./components/AboutMeSection";
 import { Outlet, Link } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import LocalGrocer from "./components/Pages/LocalGrocer";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="">
@@ -27,13 +32,12 @@ function App() {
       <AboutMeSection></AboutMeSection>
 
       <ContactSection></ContactSection>
-      <Link to="/localgrocer">View</Link>
-      <Outlet />
+      {/* <Outlet /> */}
 
-      <Routes>
-        <Route path="/home" component={<App></App>}> </Route>
+      {/* <Routes>
+        <Route path="/" component={<App></App>}> </Route>
         <Route path="/localgrocer" element={<LocalGrocer/>}></Route>
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

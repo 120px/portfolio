@@ -1,20 +1,21 @@
 [
     {
-        "imageLocation": "./images/LocalGrocer/Thumbnail.png",
+        "imageLocation": "https://res.cloudinary.com/dnaz9ysx9/image/upload/v1649883598/portfolio/LocalGrocer/Thumbnail_ncjqut.png",
         "title": "Local Grocer",
         "description": "Replication of a grocery store. Users can sign up and sign in, add items to cart and check out. Still under construction.",
         "githubLink": "https://github.com/sdifeo/GroceryStore",
         "deployedButton": "https://github.com/sdifeo/Tile-guesser",
         "displayDeployButton": "doNotDisplay",
         "displayDetailButton": "/localgrocer",
+        "redirectPage": "/localgrocer",
         "isDisabled": "true",
         "stackUsed": ["React, ", "Express, ", "MongoDB, ", "Bootstrap"]
     },
     {
-        "imageLocation": "./images/CryptoTracker/Thumbnail.png",
+        "imageLocation": "https://res.cloudinary.com/dnaz9ysx9/image/upload/v1649883587/portfolio/CryptoTracker/Thumbnail_k15kdy.png",
         "title": "Crypto Tracker",
         "description": "Quick and simple tool that allows users to keep track of their favourite crypto currencies.",
-        "githubLink": "https://github.com/sdifeo/Tile-guesser",
+        "githubLink": "https://github.com/sdifeo/Crypto_Tracker",
         "deployedButton": "https://github.com/sdifeo/Tile-guesser",
         "displayDeployButton": "doNotDisplay",
         "displayDetailButton": "doNotDisplay",
@@ -22,13 +23,15 @@
         "stackUsed": ["React, ", "Express, ", "Bootstrap"]
     },
     {
-        "imageLocation": "./images/TITAN/thumbnail.png",
+        "imageLocation": "https://res.cloudinary.com/dnaz9ysx9/image/upload/v1649883588/portfolio/TITAN/mainpage_tmxe3o.png",
+        "imageLocation2": "https://res.cloudinary.com/dnaz9ysx9/image/upload/v1649883587/portfolio/TITAN/profile_hn6a6b.png",
         "title": "TITAN",
         "description": "A mobile application that allows users to easily keep track of their gym/workout history and progress.",
-        "githubLink": "https://github.com/sdifeo/Tile-guesser",
+        "githubLink": "https://github.com/sdifeo/TITAN",
         "deployedButton": "https://github.com/sdifeo/Tile-guesser",
         "displayDeployButton": "doNotDisplay",
         "displayDetailButton": "doNotDisplay",
+        "extraId" : "mobile-image",
         "isDisabled": "true",
         "stackUsed": ["Java, ", "Firebase"]
     }

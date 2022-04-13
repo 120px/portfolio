@@ -12,6 +12,7 @@ const Project = ({ }) => {
                 <ProjectItem
                     id={index}
                     imageLocation={data.imageLocation}
+                    imageLocation2={data.imageLocation2}
                     title={data.title}
                     description = {data.description} 
                     githubLink = {data.githubLink}
@@ -20,6 +21,8 @@ const Project = ({ }) => {
                     displayDeployButton = {data.displayDeployButton}
                     isDisabled = {data.isDisabled}
                     displayDetailButton = {data.displayDetailButton}
+                    redirectPage = {data.redirectPage}
+                    extraId= {data.extraId}
                     >
 
                 </ProjectItem>

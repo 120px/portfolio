@@ -55,3 +55,14 @@
     background-color: rgb(77, 120, 139) !important;
     margin-left: 15px;
 }
+
+#mobile-image{
+    max-width: 250px;
+    max-height: 550px;
+}
+
+.modal-width{
+    width: 60%;    /* Occupy the 90% of the screen width */
+    max-width: 60%;
+    
+}

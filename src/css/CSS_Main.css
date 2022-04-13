@@ -68,5 +68,23 @@
 
 }
 
+.responsive-images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap !important;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  margin: 0;
+
+  padding-bottom: 500px;
+}
+
+.responsive-images img{
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin: 10px 40px 10px 40px;
+}
+
 }
   

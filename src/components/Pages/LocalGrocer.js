@@ -3,23 +3,19 @@ import "../../css/LocalGrocer/CSS_LocalGrocer.css"
 import Button from 'react-bootstrap/Button'
 import { useEffect } from 'react'
 
-const LocalGrocer = () => {
-
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+const LocalGrocer = ({handleClose}) => {
 
   return (
     <div className='container-fluid localgrocer-container'>
 
       <div className='title'>
         <p>Local Grocer</p>
-        <p style={{ textAlign: "center", fontSize: "20px" }}>still under construction</p>
+        <p style={{ textAlign: "center", fontSize: "20px" }}>under construction*</p>
       </div>
 
       <div className='container-images'>
         <div>
-          <img src={require("../../images/LocalGrocer/Overview.png")}></img>
+          <img src={require("../../images/LocalGrocer/Overview.png")} loading="lazy"></img>
         </div>
         {/* <div>
           <img src={require("../../images/LocalGrocer/Body2.png")}></img>
@@ -32,11 +28,11 @@ const LocalGrocer = () => {
         </div>
         <div className='stack-image-container'>
           <div className='stack-image'>
-            <img src={require("../../images/Stack/ReactLogo.png")}></img>
+            <img src={require("../../images/Stack/ReactLogo.png")} loading="lazy"></img>
           </div>
 
           <div className='stack-image'>
-            <img src={require("../../images/Stack/MongoDb.png")}></img>
+            <img src={require("../../images/Stack/MongoDb.png")} loading="lazy"></img>
           </div>
 
           <div className='stack-image nodejs-img'>
@@ -94,8 +90,8 @@ const LocalGrocer = () => {
 
       </div>
 
-      <div style={{ textAlign: "center"}}>
-        <Button size='lg' href="/">Back Home</Button>
+      <div style={{ textAlign: "center", paddingBottom: 100}}>
+        <Button onClick={handleClose} size='lg'>close</Button>
       </div>
     </div>
   )
