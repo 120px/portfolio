@@ -1,8 +1,14 @@
 import React from 'react'
 import "../../css/LocalGrocer/CSS_LocalGrocer.css"
 import Button from 'react-bootstrap/Button'
+import { useEffect } from 'react'
 
 const LocalGrocer = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='container-fluid localgrocer-container'>
 

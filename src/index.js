@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -9,21 +9,12 @@ import LocalGrocer from './components/Pages/LocalGrocer';
 
 ReactDOM.render(
 
-  <BrowserRouter>
-    <Routes>
-
-      <Route path="/" element={<App />}/>
-
-      <Route path="localgrocer" element={<LocalGrocer />} />
-
-    </Routes>
-  </BrowserRouter>,
+  <React.StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </React.StrictMode>,
   document.getElementById('root')
-
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
-  // document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

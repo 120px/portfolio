@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card'
 import "../../css/items/CSS_projects.css"
 import Button from 'react-bootstrap/Button'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const ProjectItem = ({ imageLocation, title, githubLink, description, stackUsed, deployedButton, displayDeployButton, displayDetailButton }) => {
 
@@ -35,6 +36,7 @@ const ProjectItem = ({ imageLocation, title, githubLink, description, stackUsed,
 
                 <Button href={githubLink} variant="primary">Link to Github</Button>
                 <Button className='deployedBtn' id={displayDeployButton} href={deployedButton} variant="light">Deployment link</Button>
+                <Link to="/localgrocer">View</Link>
                 <Button className='detailBtn' id={displayDetailButton} href={displayDetailButton} variant="info">Details</Button>
             </div>
 

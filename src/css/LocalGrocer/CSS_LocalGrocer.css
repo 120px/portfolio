@@ -1,6 +1,8 @@
 .localgrocer-container{
     background-color: #212529;
     color: whitesmoke;
+    position: absolute;
+    top: 0;
 }
 
 .container-images{

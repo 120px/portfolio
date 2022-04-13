@@ -7,6 +7,8 @@ import ContactSection from "./components/ContactSection";
 import "./css/CSS_Main.css"
 import AboutMeSection from "./components/AboutMeSection";
 import { Outlet, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import LocalGrocer from "./components/Pages/LocalGrocer";
 
 function App() {
 
@@ -25,8 +27,13 @@ function App() {
       <AboutMeSection></AboutMeSection>
 
       <ContactSection></ContactSection>
-
+      <Link to="/localgrocer">View</Link>
       <Outlet />
+
+      <Routes>
+        <Route path="/home" component={<App></App>}> </Route>
+        <Route path="/localgrocer" element={<LocalGrocer/>}></Route>
+      </Routes>
     </div>
   );
 }
