@@ -132,7 +132,7 @@
     }
     
     .stack-image-container img{
-        max-width: 75px;
+        max-width: 40px;
     }
 
     .stack-container{
@@ -144,7 +144,7 @@
     }
 
     .goal-description{
-        font-size: 15px;
+        font-size: 13px;
         width: 100%;
     }
 
@@ -154,6 +154,23 @@
 
     .sale-figure{
         width: 5rem !important;
+    }
+
+    #site-state{
+        font-size: 16px !important;
+    }
+
+    .challenges-title{
+        font-size: 35px !important;
+    }
+
+    .challenges-description{
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .modal-dialog{
+        margin: auto;
     }
 
 }
